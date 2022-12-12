@@ -1,0 +1,692 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*--------------------------------------------------- page 1 --------------------------------------------------------*/
+
+.container {
+    width: 100%;
+    background: url(./img/4.jpg.jpg);
+    height: 1000px;
+}
+
+.navbar ul {
+    display: flex;
+    margin-top: 0px;
+    padding: 50px 0px;
+    margin-left: 400px;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 50px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navbar ul li a:hover {
+    color: pink;
+    transition: all 0.5s ease 0s;
+}
+
+.navbar ul li a:active {
+    color: red;
+    border-bottom: solid greenyellow;
+}
+
+.searchbar {
+    width: 30%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 2px 18px;
+    margin-top: -8px;
+}
+
+.searchbar input {
+    float: 1;
+    border: 0;
+    padding: 5px 10px;
+    outline: none;
+    font-size: medium;
+    color: red;
+}
+
+.searchbar button img {
+    width: 20px;
+}
+
+.searchbar button {
+    border: 0;
+    border-radius: 50px;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.logo img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    cursor: pointer;
+}
+
+.cont {
+    color: white;
+    display: inline-block;
+    margin-bottom: 500px;
+    padding-left: 60px;
+}
+
+.title {
+    font-size: 150px;
+    padding-top: 200px;
+    font-family: 'Italianno', cursive;
+}
+
+span {
+    color: red;
+}
+
+.cont h4 {
+    letter-spacing: 5px;
+}
+
+.cont button {
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cont button:hover {
+    background-color: greenyellow;
+}
+
+.cont p {
+    word-spacing: 1px;
+}
+
+.food {
+    height: 550px;
+    width: 550px;
+    float: right;
+    margin-top: -950px;
+    margin-right: 60px;
+}
+
+.kur {
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin-top: -550px;
+    margin-right: 500px;
+}
+
+.lef {
+    float: right;
+    margin-top: -550px;
+}
+
+/* ----------------------------------------------------page 2 ------------------------------------------------------*/
+
+.hed h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+    padding: 60px;
+}
+
+.hed p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.add img {
+    display: inline-flex;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    margin-left: 25px;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.lorr {
+    display: inline;
+}
+
+.lorr h5 {
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+.lorr p {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.che h5 {
+    text-align: center;
+    font-size: 40px;
+    margin-right: 20px;
+    margin-top: -110px;
+}
+
+.che p {
+    margin-left: 550px;
+    font-size: 20px;
+}
+
+.las h5 {
+    text-align: right;
+    font-size: 40px;
+    margin-right: 140px;
+    margin-top: -110px;
+}
+
+.las p {
+    margin-left: 980px;
+    font-size: 20px;
+}
+
+.but button {
+    color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    background-color: rgba(12, 10, 10, 0.801);
+    border: none;
+    padding: 15px 50px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.but {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.but button:hover {
+    background-color: pink;
+    color: black;
+}
+
+/*----------------------------------------------------- page 3 -------------------------------------------------------*/
+
+.sect {
+    background: rgba(12, 8, 8, 0.973);
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.next h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+    padding: 60px;
+    color: white;
+}
+
+.next p {
+    color: white;
+    font-style: italic;
+    margin-left: 200px;
+}
+
+.sect p::first-letter {
+
+    color: #ffd900;
+    font-size: 35px;
+
+}
+
+.sect p {
+    font-size: 18px;
+    align-items: center;
+}
+
+.xt p {
+    color: white;
+    font-style: italic;
+    float: right;
+    margin-right: 200px;
+    margin-top: -120px;
+}
+
+.xt button {
+    color: black;
+    border-radius: 40px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    padding: 15px 50px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.info {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 550px;
+}
+
+.xt button:hover {
+    background-color: rgb(194, 180, 60);
+}
+
+/*---------------------------------------------- page 4 --------------------------------------------------------------*/
+
+.longfoo img {
+    padding: 60px 20px;
+}
+
+.longfoo h2 {
+    float: right;
+    padding-right: 150px;
+    margin-top: 180px;
+    font-size: 50px;
+}
+
+.longfoo p {
+    float: right;
+    padding-right: 200px;
+    margin-top: -520px;
+    font-size: 25px;
+}
+
+.solo button {
+    color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.932);
+    border: none;
+    padding: 15px 50px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.solo {
+    text-align: center;
+    padding-left: 450px;
+    margin-top: -350px;
+}
+
+.solo button:hover {
+    background-color: pink;
+    color: black;
+}
+
+.colll img {
+    float: right;
+    margin-top: -500px;
+}
+
+.colll h2 {
+    padding-left: 100px;
+    margin-top: 400px;
+    font-size: 50px;
+}
+
+.colll p {
+
+    padding-left: 100px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.colll button {
+    color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.932);
+    border: none;
+    padding: 15px 50px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.sollo {
+    padding-left: 100px;
+    padding-top: 60px;
+}
+
+.colll button:hover {
+    background-color: pink;
+    color: black;
+}
+
+/*----------------------------------------------- page 5 ----------------------------------------------------------*/
+.pizz {
+    width: 100%;
+    background: url(./img/4.jpg.jpg);
+    height: 1050px;
+    margin-top: 300px;
+}
+
+.titl h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Dancing Script', cursive;
+    padding: 80px;
+    color: white;
+}
+
+.titl p {
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+}
+
+#horizontal-line {
+    height: 10px;
+    width: 130px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.pizza img {
+    margin-left: 400px;
+    margin-top: -250px;
+}
+
+.lipe img {
+    margin-left: 200px;
+    margin-top: -380px;
+}
+
+.leef img {
+    margin-top: -510px;
+    width: 1400px;
+}
+
+/*-------------------------- page 6 ------------------------------------------------------------------*/
+
+
+
+.pag h1 {
+    font-size: 50px;
+    margin-left: 100px;
+    padding-top: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.pag p {
+    margin-left: 100px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.cen h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin-right: 20px;
+    margin-top: -150px;
+}
+
+.cen p {
+    margin-left: 550px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.rig h1 {
+    text-align: right;
+    font-size: 50px;
+    margin-right: 140px;
+    margin-top: -150px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.rig p {
+    margin-left: 980px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.fan p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 120px;
+}
+
+.fan h6 {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* -----------------------------------------------page 7-------------------------------------------------- */
+
+.mailinfo {
+    background: rgba(12, 8, 8, 0.973);
+    height: 750px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.secti {
+    text-align: center;
+    color: white;
+}
+
+.secti h1 {
+    font-size: 80px;
+    font-weight: 400;
+    padding-top: 200px;
+}
+
+.secti p {
+    font-size: 25px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}
+
+.mailpart {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.mailpart input {
+    height: 50px;
+    position: relative;
+}
+
+input {
+    height: 100%;
+    width: 600px;
+    padding-left: 50px;
+    font-size: 20px;
+    outline: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 50px;
+    border: 2px solid black;
+    color: mediumvioletred
+}
+
+.mailpart button {
+    color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    background-color: rgba(12, 10, 10, 0.801);
+    border: 1px solid black;
+    padding: 13px 40px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    left: 766px;
+    position: absolute;
+}
+
+.mailpart button:hover {
+    background-color: rgb(194, 159, 22);
+    color: black;
+}
+
+.titllee img {
+    width: 1400px;
+    margin-top: -600px;
+}
+
+/* -------------------------------------------page 8------------------------------------------------ */
+
+.footer {
+    padding-bottom: 250px;
+}
+
+.fcon {
+    padding-top: 300px;
+    margin-left: 50px;
+}
+
+.fcon h4 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.fcon p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.sociel {
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.sociel img {
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    margin-left: 4px;
+    cursor: pointer;
+    background-color: hotpink;
+    border-radius: 50%;
+}
+
+.abo {
+    margin-top: -210px;
+    margin-left: 500px;
+}
+
+.abo h4 {
+    font-size: 30px;
+}
+
+.abo ul {
+    list-style: none;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.abo ul li {
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.abo ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.serv {
+    margin-top: -195px;
+    margin-left: 800px;
+}
+
+.serv h4 {
+    font-size: 30px;
+}
+
+.serv ul {
+    list-style: none;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.serv ul li {
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.serv ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.oth {
+    margin-top: -195px;
+    margin-left: 1100px;
+}
+
+.oth h4 {
+    font-size: 30px;
+}
+
+.oth ul {
+    list-style: none;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.oth ul li {
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.oth ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+/* .devalaper {
+    margin-left: 1100px;
+}
+
+.devalaper h6 {
+    background-color: hotpink;
+    font-size: 30px;
+}
+
+.we {
+    color: rgba(255, 255, 255, 0.719);
+} */
+
+
+
+/* -------------------------------------my style ---------------------------------------------------*/
